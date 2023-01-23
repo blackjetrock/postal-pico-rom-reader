@@ -8,13 +8,13 @@ device flash.
 
 The dumper can also dump ROM contents to the USB port it is powered by.
 
-![IMAG3383](https://user-images.githubusercontent.com/31587992/214004005-6004db27-6815-4894-b707-9b3878e415d8.jpg)
+<img src="https://user-images.githubusercontent.com/31587992/214004005-6004db27-6815-4894-b707-9b3878e415d8.jpg" width="300" />
 
 Hardware
 ========
 
 The dumper is basically just a Pico attached to a ROM socket with serial resistors. It is making use of the 
-possible/probably 5V tolerance of its GPIO lines*. The control signals are attached through low value 
+possible/probably 5V tolerance of its GPIO lines-*-. The control signals are attached through low value 
 resistors as they drive the ROm and aren't subject to 5V. The data lines are 5V and come into the Pico
 though cowardly 28K resistors. 
 
@@ -30,5 +30,5 @@ system.
 
 
 
-* I saw a post somewhere on the internet, by Eben Upton I think, which said that the Pico GPIOs were *probably*
-5V tolerant. i thought I'd (carefully) test that here.
+-*-I saw a post somewhere on the internet, by Eben Upton I think, which said that the Pico GPIOs were *probably*
+5V tolerant. i thought I'd (carefully) test that here. Unfortunately I can't find th epost any more.
