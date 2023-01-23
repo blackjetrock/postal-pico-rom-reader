@@ -1,0 +1,3 @@
+/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pioasm/CMakeFiles/rebuild_cache.dir
+/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pioasm/CMakeFiles/edit_cache.dir
+/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pioasm/CMakeFiles/pioasm.dir
