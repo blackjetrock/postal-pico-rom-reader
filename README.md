@@ -15,18 +15,27 @@ Hardware
 
 The dumper is basically just a Pico attached to a ROM socket with serial resistors. It is making use of the 
 possible/probably 5V tolerance of its GPIO lines-*-. The control signals are attached through low value 
-resistors as they drive the ROm and aren't subject to 5V. The data lines are 5V and come into the Pico
+resistors as they drive the ROM and aren't subject to 5V. The data lines are 5V and come into the Pico
 though cowardly 28K resistors. 
 
 Firmware
 ========
 
-The firmware uses the USB serial poirt for interactions with the user. It uses the flash of the Pico for firmware 
+The firmware uses the USB serial port for interactions with the user. It uses the flash of the Pico for firmware 
 and also has configuration data stored in part of the flash. ROM dumps stored in several 'slots' of 16K each so
 an external non-volatile device isn't needed.
 the USB serial has a menu system that can be entered at boot-up and used to set the non-volatile
 configuration data that determines how the dumper will work. Slots can be cleared etc and data dumped from the menu
 system.
+
+The dumper can be set up to dump to USB or dump data to a flash slot using the configuration menu. When dumping to a 
+slot the data is also dumped to USB. Once all slots are full the dumper will not over-write any slots with new dumps,
+but the device can still be used as a dumper with a USB data dump.
+
+To delete the slots a menu option is used, and several hoops have to be jumped through.
+
+there are a couple of counters that count the number of USB dumps that the dumper has taken and the number of slot dumps it has performed.
+
 
 
 
