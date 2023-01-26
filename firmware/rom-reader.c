@@ -37,7 +37,7 @@
 #define SLOT_SIZE    (16*1024)
 
 // How many slots there are. We could have very many slots, why not?
-#define NUM_SLOTS    3
+#define NUM_SLOTS    50
 
 //-----------------------------------------------------------------------------
 
@@ -348,6 +348,20 @@ int find_blank_slot(void)
   return(-1);
 }
 
+char *get_mode_name(int mode)
+{
+  switch(mode)
+    {
+    case USB_DUMP:
+    case SLOT_DUMP:
+      return(setup_mode_name[mode]);      
+      break;
+
+    default:
+      return("Unknown");
+      break;
+    }
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 //
@@ -371,7 +385,7 @@ void check_config_entry(void)
 
       if( (c = getchar_timeout_us(1000)) != PICO_ERROR_TIMEOUT )
 	{
-	  if( c != 0 )
+	  if( (c != 0) && (c != 255) )
 	    {
 	      key_pressed = 1;
 	      break;
@@ -476,7 +490,7 @@ void check_config_entry(void)
 		  if( (config_record->valid_a == CONFIG_MAGIC_A) && (config_record->valid_b == CONFIG_MAGIC_B ))
 		    {
 		      printf("\nConfiguration valid");
-		      printf("\nMode           : %s", setup_mode_name[config_record->mode]);
+		      printf("\nMode           : %s", get_mode_name(config_record->mode));
 		      printf("\nUSB dump count : %d", config_record->usb_dump_count);
 		      printf("\nSlot dump count: %d", config_record->slot_dump_count);
 		      printf("\n");
@@ -485,6 +499,10 @@ void check_config_entry(void)
 		    {
 		      printf("\nConfiguration NOT valid");
 		    }
+		  break;
+		  
+		default:
+		  printf("\nKey press unknown: %d", c);
 		  break;
 		}
 	      
@@ -668,7 +686,7 @@ int main()
 
   sleep_ms(3000);
   
-  printf("\nPico ROM Reader\n");
+  printf("\nPico ROM Reader V1.0\n");
   sleep_ms(1000);
 
   check_config_entry();

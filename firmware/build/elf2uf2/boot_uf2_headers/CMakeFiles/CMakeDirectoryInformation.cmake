@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/tree/downloaded_tools/pico/pico-sdk/src/common/boot_uf2")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

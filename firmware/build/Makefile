@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tree/projects/github/casio-fx9000p/firmware/rom-reader
+CMAKE_SOURCE_DIR = /tree/projects/github/postal-pico-rom-reader/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tree/projects/github/casio-fx9000p/firmware/rom-reader/build
+CMAKE_BINARY_DIR = /tree/projects/github/postal-pico-rom-reader/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles /tree/projects/github/casio-fx9000p/firmware/rom-reader/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles /tree/projects/github/postal-pico-rom-reader/firmware/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

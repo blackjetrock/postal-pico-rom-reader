@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tree/projects/github/casio-fx9000p/firmware/rom-reader
+CMAKE_SOURCE_DIR = /tree/projects/github/postal-pico-rom-reader/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tree/projects/github/casio-fx9000p/firmware/rom-reader/build
+CMAKE_BINARY_DIR = /tree/projects/github/postal-pico-rom-reader/firmware/build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -76,51 +76,51 @@ CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-pa
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	/usr/local/bin/cmake -E make_directory /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles
-	/usr/local/bin/cmake -E touch /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/ELF2UF2Build-complete
-	/usr/local/bin/cmake -E touch /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	/usr/local/bin/cmake -E make_directory /tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles
+	/usr/local/bin/cmake -E touch /tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/ELF2UF2Build-complete
+	/usr/local/bin/cmake -E touch /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2 && $(MAKE)
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2 && /usr/local/bin/cmake "-GUnix Makefiles" /tree/downloaded_tools/pico/pico-sdk/tools/elf2uf2
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2 && /usr/local/bin/cmake -E touch /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2 && /usr/local/bin/cmake "-GUnix Makefiles" /tree/downloaded_tools/pico/pico-sdk/tools/elf2uf2
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2 && /usr/local/bin/cmake -E touch /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
 	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	/usr/local/bin/cmake -E touch /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2 && /usr/local/bin/cmake -E echo_append
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2 && /usr/local/bin/cmake -E touch /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2 && /usr/local/bin/cmake -E echo_append
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2 && /usr/local/bin/cmake -E touch /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
 	/usr/local/bin/cmake -E make_directory /tree/downloaded_tools/pico/pico-sdk/tools/elf2uf2
-	/usr/local/bin/cmake -E make_directory /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2
-	/usr/local/bin/cmake -E make_directory /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2
-	/usr/local/bin/cmake -E make_directory /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/tmp
-	/usr/local/bin/cmake -E make_directory /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src/ELF2UF2Build-stamp
-	/usr/local/bin/cmake -E make_directory /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src
-	/usr/local/bin/cmake -E make_directory /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src/ELF2UF2Build-stamp
-	/usr/local/bin/cmake -E touch /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	/usr/local/bin/cmake -E make_directory /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2
+	/usr/local/bin/cmake -E make_directory /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2
+	/usr/local/bin/cmake -E make_directory /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/tmp
+	/usr/local/bin/cmake -E make_directory /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src/ELF2UF2Build-stamp
+	/usr/local/bin/cmake -E make_directory /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src
+	/usr/local/bin/cmake -E make_directory /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src/ELF2UF2Build-stamp
+	/usr/local/bin/cmake -E touch /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
 	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	/usr/local/bin/cmake -E touch /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
 	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	/usr/local/bin/cmake -E touch /tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 ELF2UF2Build: CMakeFiles/ELF2UF2Build
 ELF2UF2Build: CMakeFiles/ELF2UF2Build-complete
@@ -143,6 +143,6 @@ CMakeFiles/ELF2UF2Build.dir/clean:
 .PHONY : CMakeFiles/ELF2UF2Build.dir/clean
 
 CMakeFiles/ELF2UF2Build.dir/depend:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tree/projects/github/casio-fx9000p/firmware/rom-reader /tree/projects/github/casio-fx9000p/firmware/rom-reader /tree/projects/github/casio-fx9000p/firmware/rom-reader/build /tree/projects/github/casio-fx9000p/firmware/rom-reader/build /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tree/projects/github/postal-pico-rom-reader/firmware /tree/projects/github/postal-pico-rom-reader/firmware /tree/projects/github/postal-pico-rom-reader/firmware/build /tree/projects/github/postal-pico-rom-reader/firmware/build /tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ELF2UF2Build.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tree/projects/github/casio-fx9000p/firmware/rom-reader
+CMAKE_SOURCE_DIR = /tree/projects/github/postal-pico-rom-reader/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tree/projects/github/casio-fx9000p/firmware/rom-reader/build
+CMAKE_BINARY_DIR = /tree/projects/github/postal-pico-rom-reader/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/tinyusb//CMakeFiles/progress.marks
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles 0
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles /tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/tinyusb//CMakeFiles/progress.marks
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/clean
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/preinstall
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/preinstall
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/tinyusb/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

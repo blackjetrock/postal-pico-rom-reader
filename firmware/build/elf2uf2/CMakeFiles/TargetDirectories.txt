@@ -1,5 +1,5 @@
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/CMakeFiles/edit_cache.dir
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/CMakeFiles/elf2uf2.dir
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+/tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+/tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/CMakeFiles/edit_cache.dir
+/tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/CMakeFiles/elf2uf2.dir
+/tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+/tree/projects/github/postal-pico-rom-reader/firmware/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir

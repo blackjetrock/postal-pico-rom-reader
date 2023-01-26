@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -123,7 +123,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/tree/projects/github/casio-fx9000p/firmware/rom-reader/rom-reader.c" "CMakeFiles/rom-reader.dir/rom-reader.c.obj" "gcc" "CMakeFiles/rom-reader.dir/rom-reader.c.obj.d"
+  "/tree/projects/github/postal-pico-rom-reader/firmware/rom-reader.c" "CMakeFiles/rom-reader.dir/rom-reader.c.obj" "gcc" "CMakeFiles/rom-reader.dir/rom-reader.c.obj.d"
   "/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c" "CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" "gcc" "CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d"
   "/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c" "CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" "gcc" "CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d"
   "/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c" "CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" "gcc" "CMakeFiles/rom-reader.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d"

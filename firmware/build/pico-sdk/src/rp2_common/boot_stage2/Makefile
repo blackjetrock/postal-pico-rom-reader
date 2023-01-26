@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tree/projects/github/casio-fx9000p/firmware/rom-reader
+CMAKE_SOURCE_DIR = /tree/projects/github/postal-pico-rom-reader/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tree/projects/github/casio-fx9000p/firmware/rom-reader/build
+CMAKE_BINARY_DIR = /tree/projects/github/postal-pico-rom-reader/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/boot_stage2//CMakeFiles/progress.marks
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles 0
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles /tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/boot_stage2//CMakeFiles/progress.marks
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/clean
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/preinstall
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/preinstall
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/CMakeFil
 
 # fast build rule for target.
 bs2_default_padded_checksummed_asm/fast:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
 .PHONY : bs2_default_padded_checksummed_asm/fast
 
 # Convenience name for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.
 
 # fast build rule for target.
 bs2_default_bin/fast:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 .PHONY : bs2_default_bin/fast
 
 # Convenience name for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ bs2_default: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule
 
 # fast build rule for target.
 bs2_default/fast:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
 .PHONY : bs2_default/fast
 
 compile_time_choice.obj: compile_time_choice.S.obj
@@ -163,7 +163,7 @@ compile_time_choice.obj: compile_time_choice.S.obj
 
 # target to build an object file
 compile_time_choice.S.obj:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 .PHONY : compile_time_choice.S.obj
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tree/projects/github/casio-fx9000p/firmware/rom-reader/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tree/projects/github/postal-pico-rom-reader/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

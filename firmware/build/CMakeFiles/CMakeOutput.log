@@ -1,5 +1,5 @@
 The target system is: PICO -  - cortex-m0plus
-The host system is: Linux - 5.4.0-135-generic - x86_64
+The host system is: Linux - 5.4.0-137-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/arm-none-eabi-gcc 
 Build flags: ;-mcpu=cortex-m0plus;-mthumb
@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/3.20.0/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/3.20.0/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/arm-none-eabi-g++ 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/CMakeFiles/3.20.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "/tree/projects/github/postal-pico-rom-reader/firmware/build/CMakeFiles/3.20.0/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc (15:9-2019-q4-0ubuntu1) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]

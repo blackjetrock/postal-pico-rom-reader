@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

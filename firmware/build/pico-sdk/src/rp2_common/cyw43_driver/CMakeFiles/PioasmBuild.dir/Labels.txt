@@ -1,13 +1,13 @@
 # Target labels
  PioasmBuild
 # Source files and their labels
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.rule
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete.rule
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
-/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.rule
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete.rule
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/tree/projects/github/postal-pico-rom-reader/firmware/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

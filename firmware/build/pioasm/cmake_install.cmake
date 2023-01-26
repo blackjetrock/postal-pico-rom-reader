@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/tree/projects/github/casio-fx9000p/firmware/rom-reader/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/tree/projects/github/postal-pico-rom-reader/firmware/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

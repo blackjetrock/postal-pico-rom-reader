@@ -1,5 +1,5 @@
 CMakeFiles/rom-reader.dir/rom-reader.c.obj: \
- /tree/projects/github/casio-fx9000p/firmware/rom-reader/rom-reader.c \
+ /tree/projects/github/postal-pico-rom-reader/firmware/rom-reader.c \
  /usr/include/newlib/ctype.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -28,9 +28,9 @@ CMakeFiles/rom-reader.dir/rom-reader.c.obj: \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
- /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/generated/pico_base/pico/version.h \
+ /tree/projects/github/postal-pico-rom-reader/firmware/build/generated/pico_base/pico/version.h \
  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /tree/projects/github/casio-fx9000p/firmware/rom-reader/build/generated/pico_base/pico/config_autogen.h \
+ /tree/projects/github/postal-pico-rom-reader/firmware/build/generated/pico_base/pico/config_autogen.h \
  /tree/downloaded_tools/pico/pico-sdk/src/boards/include/boards/pico.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
