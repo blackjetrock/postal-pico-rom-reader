@@ -6,6 +6,8 @@ a dump of that ROM stored in the device flash. The device can then optionally du
 more ROMs and then be sent back to the person who wants the dumps. The dumps are then extracted from the 
 device flash.
 
+ *** NOTE: Make sure pin 1 of the ROM is correctly aligned with pin 1 on the socket when inserting it ***
+
 The dumper can also dump ROM contents to the USB port it is powered by.
 
 <img src="https://user-images.githubusercontent.com/31587992/214004005-6004db27-6815-4894-b707-9b3878e415d8.jpg" width="300" />
@@ -34,10 +36,10 @@ but the device can still be used as a dumper with a USB data dump.
 
 To delete the slots a menu option is used, and several hoops have to be jumped through.
 
-there are a couple of counters that count the number of USB dumps that the dumper has taken and the number of slot dumps it has performed.
+There are a couple of counters that count the number of USB dumps that the dumper has taken and the number of slot dumps it has performed.
 
 
 
 
 -*-I saw a post somewhere on the internet, by Eben Upton I think, which said that the Pico GPIOs were *probably*
-5V tolerant. i thought I'd (carefully) test that here. Unfortunately I can't find th epost any more.
+5V tolerant. I thought I'd (carefully) test that here. Unfortunately I can't find th epost any more.
