@@ -6,7 +6,7 @@ a dump of that ROM stored in the device flash. The device can then optionally du
 more ROMs and then be sent back to the person who wants the dumps. The dumps are then extracted from the 
 device flash.
 
- *** NOTE: Make sure pin 1 of the ROM is correctly aligned with pin 1 on the socket when inserting it ***
+ <b>*** NOTE: Make sure pin 1 of the ROM is correctly aligned with pin 1 on the socket when inserting it ***</b>
 
 The dumper can also dump ROM contents to the USB port it is powered by.
 
