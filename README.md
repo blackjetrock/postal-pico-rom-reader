@@ -41,7 +41,7 @@ There are a couple of counters that count the number of USB dumps that the dumpe
 
 
 
--*-I saw a post on the internet, which if it reslly is by Eben Upton, says that the Pico GPIOs are
+-*-I saw a post on the internet, which if it really is by Eben Upton, says that the Pico GPIOs are
 5V tolerant, but not 5V5 tolerant as inputs.
 
 See here:
