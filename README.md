@@ -1,7 +1,7 @@
 # Postal Pico ROM Reader
 
 This is a ROM reader that is designed to be an easy to use, simple ROM dumping tool.
-It should be possible to send the dumper to someone in th epost, have them plug a ROM in and get
+It should be possible to send the dumper to someone in the post, have them plug a ROM in and get
 a dump of that ROM stored in the device flash. The device can then optionally dump
 more ROMs and then be sent back to the person who wants the dumps. The dumps are then extracted from the 
 device flash.
